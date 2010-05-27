@@ -17,4 +17,19 @@
     	<servlet-name>ControllerTest</servlet-name>
     	<url-pattern>/ControllerTest</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+    	<servlet-name>Connection</servlet-name>
+    	<display-name>Connection</display-name>
+    	<description>connection</description>
+    	<servlet-class>
+    		fr.floor11.box.web.controller.ConnectionController
+    	</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    	<servlet-name>Connection</servlet-name>
+    	<url-pattern>/connection</url-pattern>
+    </servlet-mapping>
+    
 </web-app>
